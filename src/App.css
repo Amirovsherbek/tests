@@ -1,0 +1,135 @@
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+.navbar_row{
+    width: 80%;
+    height: 96px;
+}
+.main_box_row{
+     width: 80%;
+     height: 80%;
+}
+.kurs_row{
+    width: 80%;
+    height: 75%;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.afzal_row{
+    width: 80%;
+    height: 25%;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.about_row{
+    width: 80%;
+    height: 70%;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.footer_row{
+    width: 80%;
+    height: 40%;
+    margin-top: 30px;
+    margin-bottom: 10px;    
+}
+.contact{
+    width: 100%;
+    height: 192px;
+    margin-top: 30px;
+    box-sizing: border-box;
+    background: #121212;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.footer_contact{
+    width: 80%;
+    height: 48%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.call_contact{
+    width: 33.333%;
+    height:50%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+.contact_icon{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact_icon img{
+    width: 21px;
+    height: 21px;
+}
+.contact_link{
+    width: 80%;
+    height: 100%;
+    padding: 5px 8px;
+}
+.contact_link div{
+    font-family: 'Raleway';
+    font-style: normal; 
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.01em;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;
+}
+.contact span{
+    width: 80%;
+    height: 1px;
+    display: inline-block;
+    background-color: #525252;
+}
+.messenger{
+    width: 80%;
+    height: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.author{
+    width: 34%;
+    height: 100%;
+    padding: 2px 30px ;
+}
+.author div{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: flex-end;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;
+}
+.messenger_row{
+    width: 66%;
+    height: 100%;
+}
+.messenger_row img{
+    margin-left: 15px;
+}
+@media only screen and (max-width:475px) {
+    .container{
+        width: 100%;
+        height: 100vh;
+    }
+}
