@@ -1,36 +1,38 @@
 .container{
     width: 100%;
-    height: 100%;
+    height: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-   
+    overflow-x: hidden;
 }
 .navbar_row{
     width: 80%;
-    height: 96px;
+    height: 150px;
 }
 .main_box_row{
      width: 80%;
-     height: 80%;
+     height: 50%;
 }
 .kurs_row{
     width: 80%;
     height: 75%;
     margin-top: 30px;
     margin-bottom: 10px;
+    overflow: hidden;
 }
 .afzal_row{
     width: 80%;
-    height: 25%;
+    height: 15%;
     margin-top: 30px;
     margin-bottom: 10px;
 }
 .about_row{
     width: 80%;
     height: 70%;
-    margin-top: 30px;
+    margin-top:70px;
     margin-bottom: 10px;
+
 }
 .footer_row{
     width: 80%;
@@ -132,8 +134,12 @@
         width: 100%;
         height: 100vh;
     }
+    .main_box_row{
+        height: 70%;
+    }
     .kurs_row{
+       
         margin-top: 1px;
         margin-bottom: 1px;
     }
-}
+}    

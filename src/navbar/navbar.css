@@ -65,7 +65,7 @@
         text-align: center;
         display: block;
         margin-top: 10px;
-        
+        color: #ffffff;
     }
     .navbar_logotip{
         width: 40%;
@@ -84,12 +84,17 @@
     }    
     .navbar_bar{
         width: 70%;
-        height:325px;
+        height:225px;
         position: absolute;
         border-radius: 5px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    
         top: 30%;
         left: 13%;
-        background-color: rgba(65, 59, 59, 0.445);
+        background-color: rgba(65, 59, 59, 05);
     }
     .btn{
         font-family: 'Roboto';
@@ -103,5 +108,12 @@
         height: 30px;
         border-radius: 2px;
         font-size: 18px;
+    }
+    .btn_nav_link{
+        width: 60%;
+        height: 48px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
