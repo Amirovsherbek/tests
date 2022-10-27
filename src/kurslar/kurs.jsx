@@ -5,7 +5,7 @@ function Kurs(){
    setInterval(()=>{
      console.log('helloo')
    },3000)
-  },[])
+  },[])♠
    return (
          <div className="kurs">
             <div className="kurs_them">
