@@ -37,8 +37,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
-    background-color: aqua;
+
 }
 .icon_box{
     width:25%;
