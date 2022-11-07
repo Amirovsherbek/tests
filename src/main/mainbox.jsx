@@ -15,7 +15,7 @@ function MainBox(){
                        <div> Har yakshanba 
                          <span className='warring'>BEPUL</span> OCHIQ  darslar
                        </div>
-                       <button type={'button'} className={'btn btn_main'}>
+                       <button type={'button'} className={'btnx btn_main'}>
                            Darsga yozilish
                        </button>
                 </div>

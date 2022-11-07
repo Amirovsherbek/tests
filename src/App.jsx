@@ -8,8 +8,9 @@ import call from '../src/image/call.png'
 import telegram from '../src/image/telegram.png'
 import './App.css'
 import { NavLink } from "react-router-dom";
+import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
-  return (
+    return (
     <div className="container">
        <div className="navbar_row">
              <Navbar/>

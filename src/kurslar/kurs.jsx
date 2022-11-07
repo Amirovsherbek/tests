@@ -1,11 +1,5 @@
-import { useEffect } from 'react'
-import './kurs.css'
+import './kurs.css';
 function Kurs(){
-  useEffect(()=>{
-   setInterval(()=>{
-     console.log('helloo')
-   },3000)
-  },[])♠
    return (
          <div className="kurs">
             <div className="kurs_them">
@@ -14,60 +8,68 @@ function Kurs(){
                      tez va oson o’rganing 
                 </div>
             </div>
-            <div className="kurslar">
-                <div className="kurs_card">
-                  <div className="kurs_card_img">
+           <div className="kurslar">
+             <div className="k-card">
+                <div className="card mx-1 my-2 ">                  
                      <img src="https://brunoyam.com/storage/post/37/9b9b7f01c880573efaf20d234b1eea57.png" alt="motion dizayn" />
+                   <div className="card-header">
+                     <h4  className='card-title'>
+                        Motion dizayn
+                     </h4>
                   </div>
-                  <div className="kurs_card_header">
-                     <div>Motion dizayn</div>
-                  </div>
-                  <div className="kurs_card_body">
-                      <div>Motion dizayn kursimiz  davomida siz
-                       dasturlash mantigʻi, uning algoritmi
+                  <div className="card-body">
+                     <div>Motion dizayn kursimiz  davomida siz
+                         dasturlash mantigʻi, uning algoritmi
                       </div>
                   </div>
-                </div> 
-                <div className="kurs_card">
-                  <div className="kurs_card_img">
+                </div>
+             </div>
+             <div className="k-card">
+             <div className="card mx-1 my-2 ">                  
                      <img src="https://brunoyam.com/storage/post/37/9b9b7f01c880573efaf20d234b1eea57.png" alt="motion dizayn" />
+                   <div className="card-header">
+                     <h4  className='card-title'>
+                        Motion dizayn
+                     </h4>
                   </div>
-                  <div className="kurs_card_header">
-                     <div>Motion dizayn</div>
-                  </div>
-                  <div className="kurs_card_body">
-                      <div>Motion dizayn kursimiz  davomida siz
-                       dasturlash mantigʻi, uning algoritmi
+                  <div className="card-body">
+                     <div>Motion dizayn kursimiz  davomida siz
+                         dasturlash mantigʻi, uning algoritmi
                       </div>
                   </div>
-                </div>      
-                <div className="kurs_card">
-                  <div className="kurs_card_img">
+                </div>
+             </div>
+             <div className="k-card">
+                <div className="card mx-1 my-2 ">                  
                      <img src="https://brunoyam.com/storage/post/37/9b9b7f01c880573efaf20d234b1eea57.png" alt="motion dizayn" />
+                   <div className="card-header">
+                     <h4  className='card-title'>
+                        Motion dizayn
+                     </h4>
                   </div>
-                  <div className="kurs_card_header">
-                     <div>Motion dizayn</div>
-                  </div>
-                  <div className="kurs_card_body">
-                      <div>Motion dizayn kursimiz  davomida siz
-                       dasturlash mantigʻi, uning algoritmi
+                  <div className="card-body">
+                     <div>Motion dizayn kursimiz  davomida siz
+                         dasturlash mantigʻi, uning algoritmi
                       </div>
                   </div>
-                </div> 
-                <div className="kurs_card">
-                  <div className="kurs_card_img">
+                </div>
+             </div>
+             <div className="k-card">
+                <div className="card mx-1 my-2 ">                  
                      <img src="https://brunoyam.com/storage/post/37/9b9b7f01c880573efaf20d234b1eea57.png" alt="motion dizayn" />
+                   <div className="card-header">
+                     <h4  className='card-title'>
+                        Motion dizayn
+                     </h4>
                   </div>
-                  <div className="kurs_card_header">
-                     <div>Motion dizayn</div>
-                  </div>
-                  <div className="kurs_card_body">
-                      <div>Motion dizayn kursimiz  davomida siz
-                       dasturlash mantigʻi, uning algoritmi
+                  <div className="card-body">
+                     <div>Motion dizayn kursimiz  davomida siz
+                         dasturlash mantigʻi, uning algoritmi
                       </div>
                   </div>
-                </div>         
-            </div>
+                </div>
+             </div>
+           </div>
            
          </div>
     )

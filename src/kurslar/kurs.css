@@ -2,7 +2,6 @@
     width: 100%;
     height: 75%;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
@@ -36,10 +35,13 @@
     font-size: 18px;
     line-height: 22px;
 }
-.kurs_card{
-    width: 22%;
-    height: 95%;
+.k-card{
+    width: 24%;
+    height: 45%;
     border-radius: 5px;
+}
+.card{
+    width: 100%;
 }
 .kurs_card_img{
     width: 100%;
@@ -79,15 +81,22 @@
     font-size: 14px;
     line-height: 20px;
 }
+
 @media only screen and (max-width:475px) {
     .kurs{
-        width: 80%;
-        height: 50%;
-        overflow: hidden;
-    }
-    .kurs_card{
         width: 100%;
         height: 100%;
+        margin-bottom: 50px;
+    }
+    .kurslar{
+        width: 100%;
+        height: 60%;
+        display: flex;
+        overflow-x: scroll;
+    }
+    .k-card{
+        width: 200px;
+        height: 130px;
     }
     .kurs_them h1{
         font-family: 'Roboto';
@@ -107,5 +116,25 @@
         text-align: center;
         color: #333333;
     }
-}    
-
+    
+}  
+@media only screen and (min-width:476px) {
+    .kurslar{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}  
+/* 
+<div className="card">                  
+                     <img src="https://brunoyam.com/storage/post/37/9b9b7f01c880573efaf20d234b1eea57.png" alt="motion dizayn" />
+                  <div className="card-header">
+                     <h4  className='card-title'>
+                        Motion dizayn
+                     </h4>
+                  </div>
+                  <div className="card-body">
+                     <div>Motion dizayn kursimiz  davomida siz
+                         dasturlash mantigʻi, uning algoritmi
+                      </div>
+                  </div>
+               </div> */

@@ -29,7 +29,7 @@
     line-height: 24px;
     color: #000000;
 }
-.btn{
+.btnx{
     background: #F16136;
     border-radius: 8px;
     font-family: 'Montserrat';
@@ -42,6 +42,7 @@
     justify-content: center;
     color: #FFFFFF;
     border: none  ;
+    text-decoration: none;
 }
 .btn_nav_link{
     width: 116px;
@@ -91,12 +92,11 @@
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-    
         top: 30%;
         left: 13%;
-        background-color: rgba(65, 59, 59, 05);
+        background-color: rgba(65, 59, 59, 01);
     }
-    .btn{
+    .btnx{
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 500;

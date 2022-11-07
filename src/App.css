@@ -16,10 +16,9 @@
 }
 .kurs_row{
     width: 80%;
-    height: 75%;
+    height: 85%;
     margin-top: 30px;
     margin-bottom: 10px;
-    overflow: hidden;
 }
 .afzal_row{
     width: 80%;
@@ -138,8 +137,11 @@
         height: 70%;
     }
     .kurs_row{
-       
+       width: 100%;
         margin-top: 1px;
         margin-bottom: 1px;
+    }
+    .afzal_row{
+        height: 50%;
     }
 }    
